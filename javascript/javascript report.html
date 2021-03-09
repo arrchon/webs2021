@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let site = prompt("네이버, 다음, 구글, 네이트 중 자주가는 사이트는?");
+      let 네이버 = "https://www.naver.com";
+      let 다음 = "https://www.daum.net";
+      let 구글 = "https://www.google.co.kr";
+      let 네이트 = "https://www.nate.com";
+
+      if (site == "네이버") {
+        location.href = 네이버;
+      } else if (site == "다음") {
+        location.href = 다음;
+      } else if (site == "구글") {
+        location.href = 구글;
+      } else if (site == "네이트") {
+        location.href = 네이트;
+      } else {
+        document.write("그런 사이트는 없습니다.");
+      }
+    </script>
+  </body>
+</html>

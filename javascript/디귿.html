@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>똥</title>
+  </head>
+  <body>
+    <script>
+      let sign = prompt("What's your sign?");
+
+      if (sign.toLowerCase() == "scorpio") {
+        alert("Wow! I'm a Scorpio too!");
+      }
+      // prompt 명령어는 다양한 방법으로 사용이 가능하다.
+      sign = window.prompt(); // 빈 prompt 창 열기
+      sign = prompt(); // 빈 prompt 창 열기
+      sign = window.prompt("Are you feeling lucky"); // 텍스트창 열기 "운이 좋으신가요"
+      sign = window.prompt("Are you feeling lucky", "sure"); // 텍스트창 열기 "운이 좋으신가요" 기본값 "그럼요"
+    </script>
+  </body>
+</html>
